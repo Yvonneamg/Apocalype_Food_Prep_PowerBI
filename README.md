@@ -28,11 +28,13 @@ The dataset with pivot table is obtained from [GitHub](https://github.com/AlexTh
 The initital raw dataset contains **48** rows and **4** columns namely **stores** , the **product** names, the **price** and **date** of purchase. 
 
 The dataset with pivot table  contains three sheets, **Purchase Tracker**, **Pivot Table** and **Purchase Overview**
----
 
+
+
+---
 ## Analysis Approach
 
-# Loading the data to Power BI and transformations using Power Query
+## Loading the data to Power BI and transformations using Power Query
 
 The analysis is done on ** PowerBI** while utilizing *Power Query** for cleaning up the dataset.
 
@@ -55,4 +57,4 @@ The dataset with pivot table  is loaded to Power BI then transformed using Power
 - Unpivoting date columns
 - The data is then loaded to PowerBI for visualizations
 
-# Building Relationships
+## Building Relationships
