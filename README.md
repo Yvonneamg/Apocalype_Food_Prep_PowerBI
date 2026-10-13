@@ -19,11 +19,13 @@ This project seeks to answer the following questions:
 
 ---
 
-## The Dataset
+## The Datasets
 
 The initital raw dataset is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep.xlsx)
 
 The dataset with pivot table is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep%20-%20Power%20Query%20Editor%20Tutorial.xlsx)
+
+The dataset with information on different related sheets is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep%20-%20Relationship%20Tutorial.xlsx). It contains three sheets with stores information, sales information and customers information.
 
 The initital raw dataset contains **48** rows and **4** columns namely **stores** , the **product** names, the **price** and **date** of purchase. 
 
@@ -57,4 +59,17 @@ The dataset with pivot table  is loaded to Power BI then transformed using Power
 - Unpivoting date columns
 - The data is then loaded to PowerBI for visualizations
 
+---
+
+
 ## Building Relationships
+
+The dataset is loaded to power BI and a simple transformation is applied to check data correctness. It is then loaded to Power BI.
+
+In the model view, I create relationships between the tables. I link **Cust ID** with **Customer ID** and **product ID** with **Product ID** in the respective tables. 
+
+I ensure that the cross filter is set to **Both** instead of **single** to ensure accuracy in calculated measures.
+
+I then set the correct relationships to be active and now the dataset is ready for visualization.
+
+---
