@@ -15,7 +15,7 @@ The business is preparing for an apocalypse. It needs to determine the most effi
 This project seeks to answer the following questions:
 1. Which store offers the best price combination in general
 2. Which Store offers the best price by product
-3.
+3. Who 
 
 ---
 
@@ -73,3 +73,4 @@ I ensure that the cross filter is set to **Both** instead of **single** to ensur
 I then set the correct relationships to be active and now the dataset is ready for visualization.
 
 ---
+
