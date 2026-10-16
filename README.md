@@ -1,21 +1,31 @@
 # Apocalypse Food Preparation_Power BI Project
 
 ## Overview
-We are preparing to store food for a predicted apocalypse. We need tlo store food th\at is highly likely not to be perishable within a short period of time. This project utilizes **Power BI** 
+We are preparing to store food for a predicted apocalypse. We need to store food that is highly likely not to be perishable within a short period of time. 
 
-The dataset contains information about the stores from which we purchase the products for the apocalypse.
+We are also analysing the sales of a particular store for the apocalypse.
+
+This project utilizes **Power BI** 
+
+The datasets contains information about the stores from which we purchase the products for the apocalypse as well as information on sales for a single store.
 
 ## Key Findings
+1. Costco is the cheapest store in general at **210** compared to the other 2 stores.
+2. For **Rice** Target has the best price, 2 dollars cheaper than Costco, however, Costco offers the best prices for **Dried Beans** and **Bottled Water**. All stores have similar prices for **Canned Vegetables** so it is insignificant where we buy.
 ---
 ## Business Recommendations
+- We should buy rice from **Target** and the rest of the items from **Costco** provided it is not logistically expensive to go to target then back to Costco.
 ---
 ## Business Problem
-The business is preparing for an apocalypse. It needs to determine the most efficient way way to store up food.
+The business is preparing for an apocalypse. It needs to determine the most efficient way way to store up food and the other business is trying to understand its sales patterns for the apocalypse.
 
 This project seeks to answer the following questions:
 1. Which store offers the best price combination in general
 2. Which Store offers the best price by product
-3. Who 
+3. What is our total revenue, production cost and gross profit
+4. Which is our top selling product by products sold and profit per product
+5. Who is our top customer
+6. Which is the highest selling day of the week during the 3 months.
 
 ---
 
