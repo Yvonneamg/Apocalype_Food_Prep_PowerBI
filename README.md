@@ -12,10 +12,21 @@ The datasets contains information about the stores from which we purchase the pr
 ## Key Findings
 1. Costco is the cheapest store in general at **210** compared to the other 2 stores.
 2. For **Rice** Target has the best price, 2 dollars cheaper than Costco, however, Costco offers the best prices for **Dried Beans** and **Bottled Water**. All stores have similar prices for **Canned Vegetables** so it is insignificant where we buy.
+3. The business made a total revenue of **87.95** thousand against a total production cost of **44.73** thousand translating into a gross profit of  **43.21** thousand. The business made **74** sales totalling to **3000** products sold.
+4. Weatherproof jackets produced the highest profit while Multitool survival knife had the most sales.
+5. Uncle Joe's prep shop is our top customer  having bought **342** more units than our least customer.
+6. Monday is the best selling day of the week at **482** units sold closely followed by Wednesday at **462**. Thursday is the worst selling day of the week at **354** across the 3 months.
 ---
+
+
 ## Business Recommendations
 - We should buy rice from **Target** and the rest of the items from **Costco** provided it is not logistically expensive to go to target then back to Costco.
+- The business should investigate why Multitool survival knife does not generate the most profit despite having the most sales.Further investiation should be carried out as to why weather proof jackets have higher profit despite the sales being almost twice less than Multitool survival knife.
+- Marketing strategy should be further amplified for Mondays to drive even more sales although the business should investigate the key cause for a drop in sales from Wednesdays to Thursdays.
+- The business should further boost incentives for Uncle Joe's prep shop to further encourage him to keep making purchases. Prep4anything prepping store should be visited to understand their needs more and determine a wasy to encourage them to make more purchases.
 ---
+
+
 ## Business Problem
 The business is preparing for an apocalypse. It needs to determine the most efficient way way to store up food and the other business is trying to understand its sales patterns for the apocalypse.
 
@@ -31,15 +42,17 @@ This project seeks to answer the following questions:
 
 ## The Datasets
 
-The initital raw dataset is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep.xlsx)
+The purchases dataset is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep.xlsx)
 
-The dataset with pivot table is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep%20-%20Power%20Query%20Editor%20Tutorial.xlsx)
+The purchases overview dataset is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep%20-%20Power%20Query%20Editor%20Tutorial.xlsx)
 
-The dataset with information on different related sheets is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep%20-%20Relationship%20Tutorial.xlsx). It contains three sheets with stores information, sales information and customers information.
+The sales dataset is obtained from [GitHub](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep%20-%20Relationship%20Tutorial.xlsx). It contains three sheets with stores information, sales information and customers information.
 
-The initital raw dataset contains **48** rows and **4** columns namely **stores** , the **product** names, the **price** and **date** of purchase. 
+The purchases dataset contains **48** rows and **4** columns namely **stores** , the **product** names, the **price** and **date** of purchase. 
 
-The dataset with pivot table  contains three sheets, **Purchase Tracker**, **Pivot Table** and **Purchase Overview**
+The purchases overview dataset contains three sheets that is **Purchase Tracker**, **Pivot Table** and **Purchase Overview**
+
+The sales dataset contains three sheets that is **Stores information**, **Sales information** and **Customers information**
 
 
 
