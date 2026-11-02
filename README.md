@@ -21,7 +21,7 @@ The datasets contains information about the stores from which we purchase the pr
 
 ## Business Recommendations
 - We should buy rice from **Target** and the rest of the items from **Costco** provided it is not logistically expensive to go to target then back to Costco.
-- The business should investigate why Multitool survival knife does not generate the most profit despite having the most sales.Further investiation should be carried out as to why weather proof jackets have higher profit despite the sales being almost twice less than Multitool survival knife.
+- The business should investigate why Multitool survival knife does not generate the most profit despite having the most sales.Further investigation should be carried out as to why weather proof jackets have higher profit despite the sales being almost twice less than Multitool survival knife.
 - Marketing strategy should be further amplified for Mondays to drive even more sales although the business should investigate the key cause for a drop in sales from Wednesdays to Thursdays.
 - The business should further boost incentives for Uncle Joe's prep shop to further encourage him to keep making purchases. Prep4anything prepping store should be visited to understand their needs more and determine a wasy to encourage them to make more purchases.
 ---
@@ -61,9 +61,9 @@ The sales dataset contains three sheets that is **Stores information**, **Sales 
 
 ## Loading the data to Power BI and transformations using Power Query
 
-The analysis is done on ** PowerBI** while utilizing *Power Query** for cleaning up the dataset.
+The analysis is done on **PowerBI** while utilizing **Power Query** for cleaning up the dataset.
 
-To determine the top store by sales and top store by product sales I load initial raw dataset to PowerBI and use Power Query to perform the following transformations;
+To determine the top store by sales and top store by product sales I load purchases dataset to PowerBI and use Power Query to perform the following transformations;
 
 - Rename columns for clarity
 - Transform columns to correct data types
@@ -71,23 +71,21 @@ To determine the top store by sales and top store by product sales I load initia
 - Create two visuals for the top store by sales and top store by product sales.
 
 
-The dataset with pivot table  is loaded to Power BI then transformed using Power Query. Key transformations include;
+The purchases overview dataset is loaded to Power BI then transformed using Power Query. Key transformations include;
 
 - Deleting top two empty rows
 - Promoting first row to header
-- Deleting the grand total olumn
+- Deleting the grand total column
 - Deleting subtotals by filtering the first column to remove empty rows
-- Renaming columns acordingly for better clarity
+- Renaming columns accordingly for better clarity
 - Changing data types to match the data ie. the date to be dates, text to be text and fixed decimal numbers to  be decimal numbers
 - Unpivoting date columns
 - The data is then loaded to PowerBI for visualizations
 
----
-
 
 ## Building Relationships
 
-The dataset is loaded to power BI and a simple transformation is applied to check data correctness. It is then loaded to Power BI.
+The sales dataset is loaded to power BI and a simple transformation is applied to check data correctness. It is then loaded to Power BI.
 
 In the model view, I create relationships between the tables. I link **Cust ID** with **Customer ID** and **product ID** with **Product ID** in the respective tables. 
 
@@ -95,5 +93,44 @@ I ensure that the cross filter is set to **Both** instead of **single** to ensur
 
 I then set the correct relationships to be active and now the dataset is ready for visualization.
 
+The visuals are created using;
+- Cards for single digit visuals like Gross profit
+- Column and bar charts to show variances in stores and products
+- Tables and consitional formatting to identify different patterns
+- Calcualated columns and values are created using Dax to enable further understanding of the dataset and also create more communicative visuals.
+
 ---
 
+## Tools & Technologies
+
+- **Business Intelligence: Power BI Desktop**
+- **Data Transformation: Power Query (M Language)**
+- **Data Modeling & Analytics: DAX (Data Analysis Expressions)**
+
+--- 
+
+## Project Structure
+
+```text
+Apocalypse_Food_Prep_Powerbi/
+|
+├── data/
+│   └──data/raw/Purchases Dataset.xlsx
+│      data/raw/Purchases Overview.xlsx
+│      data/raw/Sales Dataset.xlsx
+│
+├── Visualizations/
+│   └── Apocalypse_food_preparation_analysis.png
+|       Sales_analysis_dashboard.png
+│
+└── README.md
+
+```
+--- 
+
+## How to Run
+
+1. Clone or download the repository.
+2. Open `Apocalypse_foodprep_analysis.pbix` in PowerBI.
+3. Refresh the queries and check the updates made
+4. Check the relationships claimed and drill through the visuals for better understanding
